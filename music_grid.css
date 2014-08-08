@@ -1,0 +1,42 @@
+.child
+{
+	width: 120px;
+	height: 120px;
+	margin: 5px;
+	background-color: orange;
+}
+
+.parent
+{
+	
+	   display: flex;
+	   align-items: center;
+	   justify-content: center;
+	   width: 600px;
+	   flex-wrap: wrap;
+	   margin: auto;
+	   
+  }
+  
+  .hover
+  {
+	  background-color: red;
+  }
+  
+  .header
+  {
+	  height: 70px;
+	  padding-top: 30px;
+	  text-align: center;
+	  font-size: 30px;
+	  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	  
+	  text-shadow: 
+	  1px 0px 1px #435D6E, 0px 1px 1px #18CDD6, 
+	  2px 1px 1px #EC1172, 1px 2px 1px #18CDD6,
+	  3px 2px 1px #EC1172, 2px 3px 1px #18CDD6,
+	  4px 3px 1px #EC1172, 3px 4px 1px #18CDD6,
+	  5px 4px 1px #EC1172, 4px 5px 1px #18CDD6,
+	  6px 5px 1px #EC1172, 5px 6px 1px #18CDD6,
+	  7px 6px 1px #EC1172;
+  }
